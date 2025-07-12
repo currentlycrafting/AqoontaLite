@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ content.title if content else 'Lesson' }}</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .section-content { margin-bottom: 15px; }
+        .navigation-links a { margin-right: 15px; }
+    </style>
+</head>
+<body>
+    <h1>{{ content.title if content else 'Lesson Details' }}</h1>
+
+    {% if content and content.sections %}
+        {% for section in content.sections %}
+            <h2>{{ section.heading }}</h2>
+            <p>{{ section.content }}</p>
+        {% endfor %}
+    {% else %}
+        <p>No content available for this lesson.</p>
+    {% endif %}
+
+    <div class="navigation-links">
+        <a href="{{ url_for('main_dashboard') }}">Back to Dashboard</a>
+        {% if quiz_exists %}
+            <a href="{{ url_for('quiz_page', topic=topic) }}">Take Quiz</a>
+        {% else %}
+            <span>(No quiz available for this topic)</span>
+        {% endif %}
+    </div>
+</body>
+</html>

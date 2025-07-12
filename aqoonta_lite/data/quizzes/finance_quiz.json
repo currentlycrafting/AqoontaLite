@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is the primary function of money?",
+    "options": [
+      "To buy stocks",
+      "To serve as a medium of exchange",
+      "To store gold",
+      "To trade cows"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is *not* a feature of money?",
+    "options": [
+      "Durability",
+      "Portability",
+      "Flammability",
+      "Divisibility"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is inflation?",
+    "options": [
+      "A decrease in prices",
+      "A general increase in prices and fall in the purchasing value of money",
+      "An increase in the value of money",
+      "A type of investment"
+    ],
+    "answer": 1
+  }
+]

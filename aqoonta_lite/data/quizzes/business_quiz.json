@@ -1,0 +1,32 @@
+[
+    {
+        "question": "What is a business?",
+        "options": [
+            "An organization engaged in commercial, industrial, or professional activities",
+            "A type of food",
+            "A board game",
+            "A musical instrument"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of these is NOT a common business structure?",
+        "options": [
+            "Sole Proprietorship",
+            "Partnership",
+            "Corporation",
+            "Friendship Group"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is one key business function?",
+        "options": [
+            "Cooking",
+            "Marketing",
+            "Sleeping",
+            "Drawing"
+        ],
+        "answer": 1
+    }
+]

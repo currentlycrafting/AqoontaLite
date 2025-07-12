@@ -1,0 +1,16 @@
+{
+    "title": "Civics Basics Quiz",
+    "category": "civics",
+    "questions": [
+        {
+            "question": "Civics is the study of the rights and duties of what?",
+            "options": ["Animals", "Citizenship", "Plants", "Stars"],
+            "answer": "Citizenship"
+        },
+        {
+            "question": "What does civics often include the study of?",
+            "options": ["Cooking recipes", "Civil law and government", "Fashion trends", "Sports scores"],
+            "answer": "Civil law and government"
+        }
+    ]
+}

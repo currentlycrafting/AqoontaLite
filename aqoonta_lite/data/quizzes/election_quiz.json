@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What year was the first man on the moon?",
+    "options": ["1965", "1969", "1971", "1975"],
+    "answer": 1
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "answer": 1
+  },
+  {
+    "question": "What is the minimum voting age in most democratic countries?",
+    "options": ["16", "18", "21", "25"],
+    "answer": 1
+  },
+  {
+    "question": "What is a 'constituency' in an election?",
+    "options": ["A group of voters", "A political party's headquarters", "An electoral district", "A polling station"],
+    "answer": 2
+  }
+]

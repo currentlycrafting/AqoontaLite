@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+env/
+venv/
+
+# Flask
+instance/
+.flaskenv
+
+# Editor specific
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db

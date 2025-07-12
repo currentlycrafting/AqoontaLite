@@ -1,0 +1,17 @@
+{
+  "title": "Finance Basics",
+  "sections": [
+    {
+      "heading": "What is Money?",
+      "content": "Money is anything that is generally accepted as payment for goods and services and repayment of debts. It serves as a medium of exchange, a unit of account, and a store of value."
+    },
+    {
+      "heading": "Features of Money",
+      "content": "Key features of money include durability (it lasts), portability (easy to carry), divisibility (can be broken into smaller units), uniformity (all units are the same), limited supply (prevents inflation), and acceptability (everyone agrees it has value)."
+    },
+    {
+      "heading": "Understanding Inflation",
+      "content": "Inflation refers to a general increase in the prices of goods and services in an economy over a period of time. When the price level rises, each unit of currency buys fewer goods and services; consequently, inflation reflects a reduction in the purchasing power per unit of money – a loss of real value in the medium of exchange and unit of account within the economy."
+    }
+  ]
+}
