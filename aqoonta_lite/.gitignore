@@ -1,19 +1,36 @@
 # Python
 __pycache__/
 *.pyc
-.pytest_cache/
-.venv/
+*.pyo
+*.pyd
+.Python
 env/
 venv/
+.venv/
 
 # Flask
 instance/
-.flaskenv
+.webassets-cache/
 
-# Editor specific
+# Databases (if your Flask app uses SQLite or similar local databases)
+*.sqlite3
+*.db
+*/data.db # If your database is named data.db in any subfolder
+
+# Editor/IDE files
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
 
 # Operating System files
 .DS_Store
 Thumbs.db
+
+# Log files
+*.log
+
+# Docker specific (if any local volumes or temporary build outputs should be ignored)
+# For example, if you mount a volume for logs or temporary data:
+# logs/
+# temp/
