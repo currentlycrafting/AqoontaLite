@@ -1,0 +1,89 @@
+/* ==== BASE RESET ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #e0e5ec;
+    color: #1f2937;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* ==== CONTAINER ==== */
+  .container {
+    max-width: 700px;
+    width: 100%;
+    background: #e0e5ec;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px #babecc, -8px -8px 15px #ffffff;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .brand {
+    color: #2563eb;
+    font-weight: 700;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    color: #4b5563;
+    margin-bottom: 2rem;
+  }
+  
+  /* ==== LESSON LIST ==== */
+  .lesson-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lesson-list li {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Neumorphic lesson card */
+  .lesson-card {
+    display: block;
+    background: #e0e5ec;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #2563eb;
+    text-decoration: none;
+    box-shadow: 6px 6px 12px #babecc, -6px -6px 12px #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .lesson-card:hover {
+    box-shadow: inset 4px 4px 8px #babecc, inset -4px -4px 8px #ffffff;
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .container {
+      padding: 2rem 1.5rem;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .lesson-card {
+      font-size: 0.95rem;
+    }
+  }
